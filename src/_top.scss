@@ -1,0 +1,41 @@
+/*-----------------T O P----------*/
+.top {
+    background-image: url('../images/hero-img.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    .header-block {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .logo {
+                width: 41%;
+            }
+            nav {
+                width: 51%;
+                margin-top: 4px;
+                margin-right: 45px;
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    li {
+                        color: #fffefe;
+                        font-family: 'Lato', sans-serif;
+                        font-size: 14px;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        a {
+                            text-decoration: none;
+                            &:hover {
+                                text-decoration: underline;
+                                color: #77ccf9;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@mixin item-info {
+    width: 370px;
+    height: 420px;
+    position: absolute;
+}
+@mixin hidden-item-info {
+  width: 370px;
+  height: 420px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    opacity: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-top: 120px;
+    font-size: 26px;
+}
+@mixin input-info {
+  margin-top: 42px;
+  width: 45%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #fff;
+  background: none;
+  font-family: Lato;
+  font-style: italic;
+}
+@mixin input-info-focus {
+  border: 1px solid #77ccf9;
+  background-color: rgba(119, 204, 249, 0.1);
+}

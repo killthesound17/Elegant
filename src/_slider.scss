@@ -1,0 +1,39 @@
+/* ---------------------SLIDER---------------*/
+.slider {
+    text-align: center;
+    .creativeagency {
+        text-align: center;
+        width: 60%;
+        margin: 192px auto 250px;
+        h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        p {
+            color: #fffefe;
+            font-family: 'Lato', sans-serif;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+    }
+    button {
+        width: 92px;
+        height: 92px;
+        background: none;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        margin-bottom: 50px;
+        &:hover {
+            border: 2px solid #77ccf9;
+            cursor: pointer;
+        }
+        i {
+            opacity: 0.5;
+            font-size: 50px;
+        }
+    }
+}

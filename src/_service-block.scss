@@ -1,0 +1,35 @@
+/*----------------SERVICE BLOCK---------------*/
+.service-block {
+    background-color: white;
+    text-align: center;
+    .services {
+        margin-top: 79px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+        .service-item {
+            width: 31%;
+            .service-item__logo {
+              .service-item__logopath:hover {
+                cursor: pointer;
+                fill: #77ccf9;
+              }
+            }
+            .service-item__heading {
+                color: #222222;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 24px;
+                    margin-top: 27px;
+            }
+            .service-item__text {
+                color: #222222;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                width: 95%;            }
+        }
+    }
+}

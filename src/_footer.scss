@@ -1,0 +1,69 @@
+/* --------FOOTER ----------*/
+
+footer {
+  background: url('../images/bg-footer.png');
+  height: 802px;
+  background-size: 100% 100%;
+      margin-top: 80px;
+  .container {
+    text-align: center;
+    h3 {
+      color: #fff;
+      margin-top: 0;
+      padding-top: 111px;
+    }
+    .sm-block {
+      padding-top: 30px;
+      width: 19.5%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      font-size: 24px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      i:hover {
+        color: #77ccf9;
+      }
+    }
+    form {
+      width: 57%;
+      margin: 30px auto;
+      input[type="text"] {
+        @include input-info;
+        margin-right: 9%;
+        &:focus {
+          @include input-info-focus;
+      }
+    }
+      input[type="email"] {
+        @include input-info;
+        &:focus {
+          @include input-info-focus;
+        }
+      }
+      textarea {
+        @include input-info;
+        width: 100%;
+        margin: 100px 0 50px 0;
+        &:focus {
+          @include input-info-focus;
+        }
+      }
+      input[type="submit"] {
+          width: 183px;
+          height: 60px;
+          border: 3px solid #ffffff;
+          background: none;
+          font-family: Lato;
+          font-size: 24px;
+          font-weight: 400;
+          text-transform: uppercase;
+          &:hover {
+            @include input-info-focus;
+          }
+      }
+  }
+}
+}

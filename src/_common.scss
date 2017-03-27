@@ -1,0 +1,26 @@
+/* ----COMMON STUFF-------*/
+* {
+    -webkit-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+    color: white;
+}
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+hr {
+    width: 86px;
+    font-size: 2px;
+    margin-bottom: 40px;
+}
+h3 {
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 108px;
+    margin-bottom: 68px;
+}

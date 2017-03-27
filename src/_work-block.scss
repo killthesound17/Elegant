@@ -1,0 +1,112 @@
+/* ---------------------WORK BLOCK ---------------------*/
+.work-block {
+    background-color: #fff;
+
+    .container {
+        text-align: center;
+
+        .work-items {
+            margin-bottom: 50px;
+            padding-top: 50px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            height: 420px;
+
+            .work-item {
+                width: 370px;
+
+                .item-visible-1 {
+                    @include item-info;
+                    background-image: url('../images/kinderplanet.png');
+                }
+
+                .item-hidden-1 {
+                    @include hidden-item-info;
+
+                    &:hover {
+                        opacity: 1;
+                        cursor: pointer;
+
+                        i {
+                            font-size: 42px;
+
+                            &:hover {
+                                font-size: 50px;
+                                color: #77ccf9;
+                            }
+                        }
+                    }
+                }
+
+                .item-visible-2 {
+                    @include item-info;
+                    background-image: url('../images/jetindus.png');
+                }
+
+                .item-hidden-2 {
+                    @include hidden-item-info;
+
+                    &:hover {
+                        opacity: 1;
+                        cursor: pointer;
+
+                        i {
+                            font-size: 42px;
+
+                            &:hover {
+                                font-size: 50px;
+                                color: #77ccf9;
+                            }
+                        }
+                    }
+                }
+
+                .item-visible-3 {
+                    @include item-info;
+                    background-image: url('../images/triplement.png');
+                }
+
+                .item-hidden-3 {
+                    @include hidden-item-info;
+
+                    &:hover {
+                        opacity: 1;
+                        cursor: pointer;
+
+                        i {
+                            font-size: 42px;
+
+                            &:hover {
+                                font-size: 50px;
+                                color: #77ccf9;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    button {
+        width: 370px;
+        height: 60px;
+        border: 3px solid #222222;
+        background: none;
+        text-align: center;
+        margin: 30px auto 0;
+        color: #222222;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        &:hover {
+            border: 3px solid #77ccf9;
+            background-color: rgba(119, 204, 249, 0.1);
+        }
+    }
+}
